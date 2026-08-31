@@ -1,0 +1,23 @@
+SOURCE: backend/app/services/world_service.py
+
+Create a playable educational RPG knowledge graph for {topic}.
+Description: {description}
+
+Return JSON:
+{
+ "concepts": [
+  {"id":"snake_case","name":"Concept","description":"learning goal","difficulty":0.1,"npc":"NPC name","region":"fantasy place"}
+ ],
+ "relations": [
+  {"source":"concept_id","target":"concept_id","type":"prerequisite|supports|related_to","weight":1.0}
+ ]
+}
+
+Rules:
+- 8 to 12 concepts.
+- First concept easy.
+- Include prerequisite relations.
+- Use RPG/fantasy region names.
+
+SYSTEM MESSAGE:
+You design educational RPG knowledge graphs. Return valid JSON only.

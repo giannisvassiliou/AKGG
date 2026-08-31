@@ -1,0 +1,16 @@
+SOURCE: backend/app/services/game_service.py
+
+Grade this educational quest answer.
+Concept: {concept}
+Question: {quest.prompt}
+Answer: {answer}
+
+Return JSON:
+{"score":0.0,"feedback":"feedback","mastery_delta":0.0,"misconceptions":["short misconception"]}
+
+SYSTEM MESSAGE:
+You are a fair educational assessor. Return JSON only.
+
+NOTE:
+In the uploaded implementation, misconception detection is part of this grading prompt;
+there is not a separate standalone misconception-detection prompt file.

@@ -1,0 +1,15 @@
+PREFIX akgg: <https://example.org/akgg#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?concept ?label ?mastery ?priority ?status
+WHERE {
+  ?learner  a akgg:Learner ;
+            akgg:hasLearnerState ?state .
+  ?state    akgg:forConcept    ?concept ;
+            akgg:masteryScore  ?mastery ;
+            akgg:priorityScore ?priority ;
+            akgg:status        ?status .
+  ?concept  rdfs:label         ?label .
+  FILTER(?mastery < 0.8)
+}
+ORDER BY DESC(?priority)

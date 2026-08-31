@@ -1,0 +1,13 @@
+SOURCE: backend/app/services/game_service.py
+
+Create an adaptive educational RPG quest.
+Topic: {domain.title}
+Target concept: {concept}
+Learner mastery: {learner.mastery.get(concept_id, 0)}
+Top gaps: {gap_context}
+
+Return JSON:
+{"title":"title","narrative":"story","prompt":"challenge question","expected_keywords":["keyword"],"xp_reward":100}
+
+SYSTEM MESSAGE:
+You create adaptive quests from knowledge graph gaps. Return JSON only.

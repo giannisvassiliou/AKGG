@@ -1,0 +1,162 @@
+{
+  "Introductory Programming": {
+    "e1_no_misc": {
+      "decisions": 100000,
+      "mean_eligible": 1.20764,
+      "contested_frac": 0.18724,
+      "n_contested": 18724,
+      "agreement_all": {
+        "mastery": 0.99675,
+        "nocent": 0.99675,
+        "nomisc": 1.0,
+        "nodiff": 0.99828,
+        "nopre": 1.0
+      },
+      "agreement_contested": {
+        "mastery": 0.9826425977355266,
+        "nocent": 0.9826425977355266,
+        "nomisc": 1.0,
+        "nodiff": 0.9908139286477249,
+        "nopre": 1.0
+      }
+    },
+    "e1_with_misc": {
+      "decisions": 100000,
+      "mean_eligible": 1.2083,
+      "contested_frac": 0.18888,
+      "n_contested": 18888,
+      "agreement_all": {
+        "mastery": 0.98937,
+        "nocent": 0.99383,
+        "nomisc": 0.99131,
+        "nodiff": 0.99742,
+        "nopre": 1.0
+      },
+      "agreement_contested": {
+        "mastery": 0.9437208809826345,
+        "nocent": 0.9673337568826769,
+        "nomisc": 0.9539919525624735,
+        "nodiff": 0.9863405336721728,
+        "nopre": 1.0
+      }
+    },
+    "e1_unconstrained": {
+      "decisions": 99998,
+      "mean_eligible": 2.02260045200904,
+      "contested_frac": 0.7174643492869858,
+      "n_contested": 71745,
+      "agreement_all": {
+        "mastery": 0.9182583651673033,
+        "nocent": 0.9278585571711434,
+        "nomisc": 0.9372187443748875,
+        "nodiff": 0.9463489269785396,
+        "nopre": 1.0
+      },
+      "agreement_contested": {
+        "mastery": 0.8860687155899366,
+        "nocent": 0.8994494389852952,
+        "nomisc": 0.9124956442957698,
+        "nodiff": 0.9252212697748972,
+        "nopre": 1.0
+      }
+    },
+    "e2": {
+      "runs": 3000,
+      "identical_first_choice": 1.0,
+      "identical_full_sequence": 0.10533333333333333,
+      "median_first_divergence_step": 19.0,
+      "mean_quests_full": 24.995333333333335,
+      "mean_quests_mastery": 24.962666666666667
+    },
+    "e3": {
+      "wm 0.60->0.40": 0.9924,
+      "wm 0.60->0.80": 0.9964333333333333,
+      "wp 0.25->0.10": 1.0,
+      "wp 0.25->0.40": 1.0,
+      "wd 0.10->0.00": 0.9983,
+      "wd 0.10->0.30": 0.9968,
+      "t_weak 0.60->0.50": 1.0,
+      "t_weak 0.60->0.70": 0.9962
+    }
+  },
+  "Database Systems (synthetic, 12 concepts)": {
+    "e1_no_misc": {
+      "decisions": 100000,
+      "mean_eligible": 2.00682,
+      "contested_frac": 0.35143,
+      "n_contested": 35143,
+      "agreement_all": {
+        "mastery": 0.96406,
+        "nocent": 0.95049,
+        "nomisc": 1.0,
+        "nodiff": 0.96344,
+        "nopre": 1.0
+      },
+      "agreement_contested": {
+        "mastery": 0.8977321230401503,
+        "nocent": 0.8591184588680534,
+        "nomisc": 1.0,
+        "nodiff": 0.8959679025695018,
+        "nopre": 1.0
+      }
+    },
+    "e1_with_misc": {
+      "decisions": 100000,
+      "mean_eligible": 2.00634,
+      "contested_frac": 0.35168,
+      "n_contested": 35168,
+      "agreement_all": {
+        "mastery": 0.93113,
+        "nocent": 0.95457,
+        "nomisc": 0.94929,
+        "nodiff": 0.96654,
+        "nopre": 1.0
+      },
+      "agreement_contested": {
+        "mastery": 0.8041685623293904,
+        "nocent": 0.8708200636942676,
+        "nomisc": 0.855806414922657,
+        "nodiff": 0.9048566878980892,
+        "nopre": 1.0
+      }
+    },
+    "e1_unconstrained": {
+      "decisions": 100000,
+      "mean_eligible": 3.33557,
+      "contested_frac": 0.90163,
+      "n_contested": 90163,
+      "agreement_all": {
+        "mastery": 0.81181,
+        "nocent": 0.81343,
+        "nomisc": 0.88136,
+        "nodiff": 0.91439,
+        "nopre": 1.0
+      },
+      "agreement_contested": {
+        "mastery": 0.7912780186994666,
+        "nocent": 0.7930747645930148,
+        "nomisc": 0.8684160908576689,
+        "nodiff": 0.9050497432427936,
+        "nopre": 1.0
+      }
+    },
+    "e2": {
+      "runs": 3000,
+      "identical_first_choice": 1.0,
+      "identical_full_sequence": 0.0,
+      "median_first_divergence_step": 2.0,
+      "mean_quests_full": 54.34866666666667,
+      "mean_quests_mastery": 54.43266666666667
+    },
+    "e3": {
+      "wm 0.60->0.40": 0.9687666666666667,
+      "wm 0.60->0.80": 0.9843333333333333,
+      "wp 0.25->0.10": 1.0,
+      "wp 0.25->0.40": 1.0,
+      "wd 0.10->0.00": 0.9655333333333334,
+      "wd 0.10->0.30": 0.9329333333333333,
+      "t_weak 0.60->0.50": 1.0,
+      "t_weak 0.60->0.70": 0.9898333333333333
+    }
+  }
+}

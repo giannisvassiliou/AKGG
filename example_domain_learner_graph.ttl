@@ -1,0 +1,24 @@
+@prefix akgg: <https://example.org/akgg#> .
+@prefix res:  <https://example.org/akgg/resource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+# --- Domain concept ---
+res:concept/domain_1/functions
+    a akgg:Concept ;
+    rdfs:label      "Functions" ;
+    rdfs:comment    "Create reusable blocks using parameters and return values." ;
+    akgg:difficulty  "0.65"^^xsd:float ;
+    akgg:locatedInRegion res:region/domain_1/Function_Citadel .
+
+# --- Prerequisite relation ---
+res:concept/domain_1/functions
+    akgg:hasPrerequisite res:concept/domain_1/loops .
+
+# --- Learner state ---
+res:state/learner_42/domain_1/functions
+    a akgg:LearnerState ;
+    akgg:forConcept   res:concept/domain_1/functions ;
+    akgg:masteryScore "0.35"^^xsd:float ;
+    akgg:priorityScore "0.635"^^xsd:float ;
+    akgg:status       "gap" .
